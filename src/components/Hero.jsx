@@ -44,7 +44,7 @@ const Hero = () => {
                     animate="visible"
                     >
                         
-                        <HeroCardImg variants={itemVariants} src="/img/dog.jpg"/>
+                        <HeroCardImg variants={itemVariants} src="/2DPortfolio/img/dog.jpg"/>
                         <InnerHeading variants={itemVariants}>Bryan Bokino</InnerHeading>
                         <InnerText variants={itemVariants}>An undergraduate student at UMD who is looking for software development opportunities. I enjoy being able to work on new projects, and mastering the necessary skillsets to make sure everything I produce exceeds it's expected standard. </InnerText>
                     </HeroCard>

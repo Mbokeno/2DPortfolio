@@ -103,7 +103,7 @@ export const ContactSection = styled.div`
 export const AppSection = styled.div`
   height: 100vh;
   color: purple;
-  background: url("/img/bg.png");
+  background: url("/2DPortfolio/img/bg.png");
   background-size: cover;
   background-position: center;
   overflow-y: auto;
