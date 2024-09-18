@@ -92,7 +92,7 @@ border: 2px solid white;
 border-radius: 20px;
 display: flex;
 padding-right: 10px;
-padding-left: 20px;
+padding-left: 20px ;
 `,vC=W(je.div)`
   width: 50%;
   min-height: 100vh;
