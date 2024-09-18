@@ -3,6 +3,7 @@ import { TextContainer,HeroContainer, HeroSection, HeroCard, HorizontalLine, Her
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
 
+//This function creates the tags for the languages
 const AdaptiveBackgroundText = ({ children }) => {
   return <TextContainer whileHover={{ scale: 1.1 }}>{children}</TextContainer>;
 };
@@ -10,6 +11,7 @@ const AdaptiveBackgroundText = ({ children }) => {
 
 
 const Hero = () => {
+  //Framer motion animations for the border around the text and the text/lines themselves. We use stagger so everything loads in from top down
     const containerVariants = {
         hidden: { opacity: 0 },
         visible: {
@@ -22,6 +24,7 @@ const Hero = () => {
         }
       };
     
+    //Everything comes in from the left
       const itemVariants = {
         hidden: { opacity: 0, x: -50 },
         visible: {
@@ -44,7 +47,7 @@ const Hero = () => {
                     animate="visible"
                     >
                         
-                        <HeroCardImg variants={itemVariants} src="/2DPortfolio/img/dog.jpg"/>
+                        <HeroCardImg variants={itemVariants} src="/2DPortfolio/img/ProfilePicture.JPG"/>
                         <InnerHeading variants={itemVariants}>Bryan Bokino</InnerHeading>
                         <InnerText variants={itemVariants}>An undergraduate student at UMD who is looking for software development opportunities. I enjoy being able to work on new projects, and mastering the necessary skillsets to make sure everything I produce exceeds it's expected standard. </InnerText>
                     </HeroCard>
