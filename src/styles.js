@@ -16,6 +16,12 @@ export const HorizontalLineInner = styled(motion.div)`
   margin-left: 10%;
 `;
 
+export const HeroCardInnerHeading = styled(motion.h4)`
+margin-left: 5%;
+font-size: medium;
+color: white;
+`
+
 export const InnerHeading = styled(motion.h4)`
 margin-left: 10%;
 font-size: medium;
@@ -27,6 +33,10 @@ width: 10px;
 background-color: #002D03;
 color: white;
 border-radius: 10px;
+`
+export const HeroCardInnerText = styled(motion.p)`
+margin-left: 5%;
+color: white;
 `
 
 export const InnerText = styled(motion.p)`
@@ -60,6 +70,8 @@ background-color: transparent;
 border: 2px solid white;
 border-radius: 20px;
 display: flex;
+padding-right: 10px;
+padding-left: 20px;
 `
 
 export const Information = styled(motion.div)`

@@ -1,5 +1,5 @@
 import React from "react";
-import { TextContainer,HeroContainer, HeroSection, HeroCard, HorizontalLine, HeroCardImg, Information, Title, Section, HorizontalLineInner, InnerHeading, InnerText, List, ContactSection} from "../styles";
+import { HeroCardInnerHeading,HeroCardInnerText,TextContainer,HeroContainer, HeroSection, HeroCard, HorizontalLine, HeroCardImg, Information, Title, Section, HorizontalLineInner, InnerHeading, InnerText, List, ContactSection} from "../styles";
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
 
@@ -46,10 +46,9 @@ const Hero = () => {
                     initial="hidden"
                     animate="visible"
                     >
-                        
                         <HeroCardImg variants={itemVariants} src="/2DPortfolio/img/ProfilePicture.JPG"/>
-                        <InnerHeading variants={itemVariants}>Bryan Bokino</InnerHeading>
-                        <InnerText variants={itemVariants}>An undergraduate student at UMD who is looking for software development opportunities. I enjoy being able to work on new projects, and mastering the necessary skillsets to make sure everything I produce exceeds it's expected standard. </InnerText>
+                        <HeroCardInnerHeading variants={itemVariants}>Bryan Bokino (he/him)</HeroCardInnerHeading>
+                        <HeroCardInnerText variants={itemVariants}>I am an undergraduate student at UMD looking for software development opportunities. I enjoy working on new projects and mastering the necessary skills to ensure that everything I produce exceeds the expected standard.</HeroCardInnerText>
                     </HeroCard>
                     <HorizontalLine/>
                     <Information
