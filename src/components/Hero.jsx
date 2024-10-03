@@ -103,7 +103,7 @@ const Hero = () => {
                         <Section>
                         <InnerHeading variants={itemVariants}>Languages</InnerHeading>
                         <HorizontalLineInner variants={itemVariants}/>
-                        <List variants={itemVariants}><AdaptiveBackgroundText>Java</AdaptiveBackgroundText><AdaptiveBackgroundText>Python</AdaptiveBackgroundText><AdaptiveBackgroundText>HTML</AdaptiveBackgroundText><AdaptiveBackgroundText>Lua</AdaptiveBackgroundText><AdaptiveBackgroundText>C</AdaptiveBackgroundText><AdaptiveBackgroundText>JavaScript</AdaptiveBackgroundText><AdaptiveBackgroundText>SQL</AdaptiveBackgroundText><AdaptiveBackgroundText>C++</AdaptiveBackgroundText></List>
+                        <List variants={itemVariants}><AdaptiveBackgroundText>Java</AdaptiveBackgroundText><AdaptiveBackgroundText>Python</AdaptiveBackgroundText><AdaptiveBackgroundText>HTML</AdaptiveBackgroundText><AdaptiveBackgroundText>Lua</AdaptiveBackgroundText><AdaptiveBackgroundText>C</AdaptiveBackgroundText><AdaptiveBackgroundText>JavaScript</AdaptiveBackgroundText></List>
                         <InnerHeading variants={itemVariants}>Tools</InnerHeading>
                         <HorizontalLineInner variants={itemVariants}/>
                         <List variants={itemVariants}><AdaptiveBackgroundText>Blender</AdaptiveBackgroundText><AdaptiveBackgroundText>Eclipse IDE</AdaptiveBackgroundText><AdaptiveBackgroundText>VSCode</AdaptiveBackgroundText><AdaptiveBackgroundText>Pycharm</AdaptiveBackgroundText><AdaptiveBackgroundText>Mobaxterm</AdaptiveBackgroundText></List>
