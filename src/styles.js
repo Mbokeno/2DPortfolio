@@ -71,7 +71,7 @@ border: 2px solid white;
 border-radius: 20px;
 display: flex;
 padding-right: 10px;
-padding-left: 20px;
+padding-left: 20px ;
 `
 
 export const Information = styled(motion.div)`
@@ -110,6 +110,7 @@ export const ContactSection = styled.div`
   justify-content: center;
   align-items: center;
   color: white;
+  flex-direction: column;
   gap: 5px; // Reduced gap between elements
 `
 export const AppSection = styled.div`
@@ -139,6 +140,10 @@ export const Links = styled.div`
 display: flex;
 align-items: center;
 gap: 40px;
+`
+
+export const ResumeLink= styled(motion.a)`
+  cursor: pointer;
 `
 
 export const Icons = styled.div`

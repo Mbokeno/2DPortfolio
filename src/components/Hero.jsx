@@ -1,5 +1,5 @@
 import React from "react";
-import { HeroCardInnerHeading,HeroCardInnerText,TextContainer,HeroContainer, HeroSection, HeroCard, HorizontalLine, HeroCardImg, Information, Title, Section, HorizontalLineInner, InnerHeading, InnerText, List, ContactSection} from "../styles";
+import { HeroCardInnerHeading,HeroCardInnerText,TextContainer,HeroContainer, HeroSection, HeroCard, HorizontalLine, HeroCardImg, Information, Title, Section, HorizontalLineInner, InnerHeading, InnerText, List, ContactSection, ResumeLink} from "../styles";
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
 
@@ -108,10 +108,11 @@ const Hero = () => {
                         <HorizontalLineInner variants={itemVariants}/>
                         <List variants={itemVariants}><AdaptiveBackgroundText>Blender</AdaptiveBackgroundText><AdaptiveBackgroundText>Eclipse IDE</AdaptiveBackgroundText><AdaptiveBackgroundText>VSCode</AdaptiveBackgroundText><AdaptiveBackgroundText>Pycharm</AdaptiveBackgroundText><AdaptiveBackgroundText>Mobaxterm</AdaptiveBackgroundText></List>
                         </Section>
-                        <Title  variants={itemVariants}>Contact Section</Title>
+                        <Title  variants={itemVariants}>Contact Section/Resume</Title>
                         <HorizontalLine variants={itemVariants}/>
                         <ContactSection>
                            <motion.h4 variants={itemVariants}>Email: bryanbokino@outlook.com</motion.h4>
+                           <ResumeLink variants={itemVariants} href="/Resume.pdf" target="_blank" rel="noopener noreferrer"><AdaptiveBackgroundText> My Resume </AdaptiveBackgroundText></ResumeLink>
                         </ContactSection>
                     </Information>
             </HeroContainer>
