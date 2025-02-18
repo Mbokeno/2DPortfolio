@@ -64,11 +64,6 @@ const Hero = () => {
                             <InnerText variants={itemVariants}>Working on developing a Roblox game currently with a team of people as one of the lead scripter</InnerText>
                             <List variants={itemVariants}><AdaptiveBackgroundText>Lua</AdaptiveBackgroundText></List>
                             
-                            
-                            <InnerHeading variants={itemVariants}>Real Time Chat App </InnerHeading>
-                            <HorizontalLineInner variants={itemVariants}/>
-                            <InnerText variants={itemVariants}>Creating a realtime chat app as a personal project</InnerText>
-                            <List variants={itemVariants}><AdaptiveBackgroundText>JavaScript</AdaptiveBackgroundText> <AdaptiveBackgroundText>React Library</AdaptiveBackgroundText> <AdaptiveBackgroundText>Socket.io</AdaptiveBackgroundText></List>
                         </Section>
                         <Title variants={itemVariants}>Past Projects</Title>
                         <HorizontalLine variants={itemVariants}/>
