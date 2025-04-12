@@ -61,9 +61,9 @@ const Hero = () => {
                         <Section>
                             <InnerHeading variants={itemVariants}>Roblox Game</InnerHeading>
                             <HorizontalLineInner variants={itemVariants}/>
-                            <InnerText variants={itemVariants}>Working on developing a Roblox game currently with a team of people as one of the lead scripter</InnerText>
-                            <ResumeLink variants={itemVariants} href="https://www.roblox.com/games/102445664248118/One-Piece-Demo-Title" target="_blank" rel="noopener noreferrer"><AdaptiveBackgroundText>View Game</AdaptiveBackgroundText></ResumeLink> 
-                            <List variants={itemVariants}><AdaptiveBackgroundText>Lua</AdaptiveBackgroundText></List>
+                            <InnerText variants={itemVariants}>Working on developing a Roblox game currently with a team of people as one of the head scripters and head GFX artist</InnerText>
+    
+                            <List variants={itemVariants}><AdaptiveBackgroundText>Lua</AdaptiveBackgroundText> <ResumeLink variants={itemVariants} href="https://www.roblox.com/games/102445664248118/One-Piece-Demo-Title" target="_blank" rel="noopener noreferrer"><AdaptiveBackgroundText>View Game</AdaptiveBackgroundText></ResumeLink> </List>
                             
                         </Section>
                         <Title variants={itemVariants}>Past Projects</Title>
