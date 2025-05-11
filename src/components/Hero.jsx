@@ -117,6 +117,7 @@ const Hero = () => {
                         <ContactSection>
                            <motion.h4 variants={itemVariants}>Email: bryanbokino@outlook.com</motion.h4>
                            <ResumeLink variants={itemVariants} href="/2DPortfolio/Resume.pdf" target="_blank" rel="noopener noreferrer"><AdaptiveBackgroundText> My Resume </AdaptiveBackgroundText></ResumeLink>
+                           <ResumeLink variants={itemVariants} href="https://github.com/Mbokeno" target="_blank" rel="noopener noreferrer"><AdaptiveBackgroundText> My Github </AdaptiveBackgroundText></ResumeLink>
                         </ContactSection>
                     </Information>
             </HeroContainer>
