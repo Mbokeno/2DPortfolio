@@ -92,13 +92,14 @@ const Hero = () => {
                             <HorizontalLineInner variants={itemVariants}/>
                             <InnerText variants={itemVariants}>Developed a pingpong game </InnerText>
                             <List variants={itemVariants}><AdaptiveBackgroundText>Java</AdaptiveBackgroundText></List>
-                            </Section>
 
                             <InnerHeading variants={itemVariants}>Social Media Platform</InnerHeading>
                             <HorizontalLineInner variants={itemVariants}/>
                            <InnerText variants={itemVariants}>Developed a C++ program that simulates a social media platform where you can register an account, log in,
                            view/search user profiles, create posts, follow/unfollow users, like/unlike user posts, and comment on posts</InnerText> 
                             <List variants={itemVariants}><AdaptiveBackgroundText>C++</AdaptiveBackgroundText></List>
+
+                            </Section>
 
                         
                         <Title  variants={itemVariants}>Technical Skills</Title>
